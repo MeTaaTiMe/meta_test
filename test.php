@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-  <title>PHP_test</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-</head>
-<body>
-  <?php
+<?php
     echo "送信しました.";
     mb_language("Japanese);
     mb_internal_encodomg("UTF-8");
@@ -22,4 +13,3 @@
       echo "失敗しました.";
     }
   ?>
-</body>
